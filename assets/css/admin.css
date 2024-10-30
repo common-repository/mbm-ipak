@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "yekan";
+    src: url(../fonts/Yekan.eot);
+    src: url(../fonts/Yekan.eot?#iefix) format("embedded-opentype"), url(../fonts/Yekan.woff) format("woff"), url(../fonts/Yekan.ttf) format("truetype"), url(../fonts/Yekan.svg#BYekan) format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/Vazir-Medium-FD-WOL.eot');
+    src: url('../fonts/Vazir-Medium-FD-WOL.eot?#iefix') format('embedded-opentype'), url('../fonts/Vazir-Medium-FD-WOL.woff2') format('woff2'), url('../fonts/Vazir-Medium-FD-WOL.woff') format('woff'), url('../fonts/Vazir-Medium-FD-WOL.ttf') format('truetype');
+    font-weight: normal;
+}
+
+.ipak-main,.datePicker,.rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6{
+    font-family: Vazir, yekan;
+}
+
+.ipak-main > h2:first-child{
+    margin: 10px 0px 10px 0px;
+    padding: 9px;
+    /* padding-bottom: 20px; */
+    background: #686d65;
+    color: #fff;
+    /* border-radius: 9px; */
+    text-align: center;
+}
+
+
+.ipak-main .table-header,.ipak-main .table-header .form-search-table{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-header{
+font-size: 20px;
+}
+
+
+.loading-ajax{
+    display: none; 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-image: url(../img/bg.png);
+    z-index: 10000;
+}
+
+.loading-ajax img{
+    width: 48px;
+    right: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 20%;
+}
+.modal button.close{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.span-inside-btn{
+    margin-left: 10px;
+}
+
+.model-form {
+
+}
+
+.model-form .sep-col{
+    margin-top: 20px;
+}
+
+.mbm-ipak-tile{
+    color: #fff;
+    padding: 5px;
+    position: relative;
+    height: 131px;
+}
+
+.mbm-ipak-tile h3{
+color: #fff;
+font-weight: normal;
+font-size: 24px;
+}
+
+.mbm-ipak-tile hr{
+
+}
+
+.mbm-ipak-tile p{
+    font-size: 16px;
+}
+
+.mbm-ipak-tile i{
+    position: absolute;
+    font-size: 79px;
+    top: 53px;
+    left: 6px;
+    opacity: 0.7;
+}
+
+.auto-select-box{
+    position: relative;
+ 
+}
+
+.auto-select-box .auto-select{
+    position: absolute;
+    top:63px;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #bdbaba;
+    max-height: 193px;
+    overflow: auto;
+    display: none;
+}
+
+.auto-select-box .auto-select .auto-select-item{
+    width: 100%;
+    float: right;
+    cursor: pointer;
+}
+
+.auto-select-box .auto-select .auto-select-item:hover{
+    background:  #bdbaba;
+}
+
+@media (min-width: 992px)
+{
+    .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+        float: right;
+    }
+}
+
+
